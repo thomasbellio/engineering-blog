@@ -1,0 +1,3 @@
+# Ignoring because this example includes creating these files in thereadme
+go.mod
+go.sum
