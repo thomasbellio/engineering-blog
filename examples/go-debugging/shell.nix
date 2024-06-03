@@ -14,7 +14,5 @@ pkgs.mkShell {
     export GOBIN=$(pwd)/bin
     export PATH="$PATH:$GOBIN"
     exec $SHELL
-    go install github.com/go-delve/cmd/dlv@latest
-    git status
   '';
 }
