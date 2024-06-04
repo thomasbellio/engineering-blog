@@ -6,7 +6,7 @@ import (
 )
 
 func TestFizzBuzz(t *testing.T) {
-	number := 15
+	//	number := 15
 
 	want := []string{
 		"1",
@@ -25,7 +25,7 @@ func TestFizzBuzz(t *testing.T) {
 		"14",
 		"FizzBuzz",
 	}
-	got := FizzBuzz(number)
+	got := []string{"fizz"} // FizzBuzz(number)
 
 	if !reflect.DeepEqual(got, want) {
 		t.Errorf("wanted %v, got %v ", want, got)

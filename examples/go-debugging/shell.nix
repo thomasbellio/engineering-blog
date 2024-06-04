@@ -1,6 +1,11 @@
 let
-  nixpkgs = fetchTarball "https://github.com/NixOS/nixpkgs/tarball/nixos-23.11";
-  pkgs = import nixpkgs { config = {}; overlays = []; };
+  nixpkgs = fetchTarball "https://github.com/NixOS/nixpkgs/tarball/nixos-24.05";
+  pkgs = import nixpkgs { config = {}; overlays = [
+	(self: super: {
+		go = super.go_1_22; # Ensures go Version 1.22
+	})
+
+  ]; };
 in
 
 pkgs.mkShell {
