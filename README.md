@@ -7,5 +7,6 @@ The organization of this repo is subject to change, but for now I will include e
 ## Posts
 
 * [Go Dependency Management](./godependencymanagement.md)
+* [Go Debugger in Neovim](./godebugger.md)
 
 
