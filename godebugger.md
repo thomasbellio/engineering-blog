@@ -1,4 +1,4 @@
-# About 
+# Debugging With Go and Neovim
 
 It has been a while since I have used a debugger for software development in fact the last time I used a debugger regularly was when I was a .Net developer using Visual Studio Pro. Since that time I have been getting by using print statements; but debuggers can be helpful especially when one is attempting to explore a code base that is unfamiliar. 
 
